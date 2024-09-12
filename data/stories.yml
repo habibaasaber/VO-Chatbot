@@ -1,0 +1,26 @@
+stories:
+- story: User greets and provides duration, and symptoms
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+  - story: inquire about voice-over pricing
+    steps:
+    - intent: request_voiceover
+    - action: utter_voiceover_info
+
+  - story: inquire about dubbing pricing
+    steps:
+    - intent: request_dubbing
+    - action: utter_dubbing_info
+
+    - story: User thanks the bot
+    steps:
+      - intent: thanks
+      - action: utter_youarewelcome
+
+  - story: end of conversation
+  steps:
+  - intent: goodbye
+  - action: Utter_goodbye
+  - chechpoint: ask_feedback

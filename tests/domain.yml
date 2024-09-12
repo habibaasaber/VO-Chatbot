@@ -1,0 +1,42 @@
+responses:
+  utter_voiceover_info:
+    - text: "We offer professional voice-over services. What kind of project do you need help with?"
+
+  utter_dubbing_info:
+    - text: "Our dubbing services are available for films, animations, and more. Would you like to book a session?"
+  utter_pricing_info:
+    - text: "Our services, including voice-over and dubbing, are available for $16 per minute. How can we assist you?"
+
+  utter_podcast_info:
+    - text: "You can find our latest podcast episodes on our youtube channel."
+  utter_greet:
+    - text: "Hey there!"
+  utter_goodbye:
+    - text: "Goodbye :("
+  utter_default:
+    - text: "Sorry, I didn't get that, can you rephrase?"
+  utter_youarewelcome:
+    - text: "You're very welcome."
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+  utter_get_started:
+    - text: "I can help you find concerts and venues. Do you like music?"
+  utter_awesome:
+    - text: "Awesome! You can ask me things like \"Find me some concerts\" or \"What's a good venue\""
+
+  intents:
+  -request_voiceover:
+    examples: |
+      - I need a voiceover for my project
+      - Can you help me with a voice-over?
+      - I want to book a voice-over artist
+-request_dubbing:
+    examples: |
+      - I need dubbing services for a film
+      - Do you offer dubbing services?
+      - Book a dubbing session
+-inquire_podcast:
+    examples: |
+      - Tell me about your podcast episodes
+      - Can I get the latest episode of the podcast?
+
