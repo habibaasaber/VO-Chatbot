@@ -1,0 +1,84 @@
+nlu:
+  - intent: greet
+    examples: |
+      - Hello
+      - Hi there
+      - Hey
+      - Hi, how are you?
+      - Hello, chatbot!
+  
+  - intent: goodbye
+    examples: |
+      - Bye
+      - Goodbye
+      - See you later
+      - Talk to you soon
+      - I have to go
+  
+  - intent: request_voiceover
+    examples: |
+      - I need a voiceover for my project
+      - Can I book a voice-over artist?
+      - How can I get a voice-over done?
+      - I'm looking for a voiceover service
+      - I want to hire a voiceover artist
+      - Can you help me with a voice-over?
+
+  - intent: request_dubbing
+    examples: |
+      - Do you offer dubbing services?
+      - Can I book a dubbing session?
+      - I need dubbing for a movie
+      - I want to hire someone for dubbing
+      - Looking for professional dubbing service
+      - Can I get a dubbing artist for my project?
+
+  - intent: ask_price
+    examples: |
+      - How much does it cost for a voice-over?
+      - What's the price per minute?
+      - What are your rates?
+      - Can you tell me the price of your services?
+      - How much do you charge per minute?
+      - What's the rate for dubbing?
+
+  - intent: inquire_podcast
+    examples: |
+      - Tell me about your latest podcast episode
+      - Can I listen to the podcast?
+      - Where can I find your podcast?
+      - What’s the topic of the latest episode?
+      - Do you have a new podcast?
+      - Can you recommend a podcast episode to listen to?
+
+  - intent: inform
+    examples: |
+      - I need a voiceover for 10 minutes
+      - The dubbing session should be 5 minutes long
+      - I want a 15-minute voiceover
+      - I need a podcast recording for 20 minutes
+
+  - intent: nlu_fallback
+    examples: |
+      - I don't understand
+      - What are you saying?
+      - Can you say that again?
+      - That doesn't make sense
+      - I didn't get that
+
+  - intent: affirm
+    examples: |
+      - Yes
+      - Sure
+      - That sounds good
+      - Absolutely
+      - Correct
+      - Definitely
+
+  - intent: deny
+    examples: |
+      - No
+      - I don't think so
+      - Not really
+      - I don’t want that
+      - Nope

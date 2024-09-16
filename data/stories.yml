@@ -24,3 +24,11 @@ stories:
   - intent: goodbye
   - action: Utter_goodbye
   - chechpoint: ask_feedback
+
+  - story: user provides feedback
+  steps:
+  - checkpoint: ask_feedback
+  - action: utter_ask_feedback
+  - intent: deny
+  - action: utter_no_problen
+  - action: utter_any_thing_else 
